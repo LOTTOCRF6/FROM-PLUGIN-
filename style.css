@@ -90,7 +90,9 @@ body{
   label{
     position: absolute;
     z-index: 1;
-    margin: -20;
+    margin-top: -17px;
+    color: azure;
+    /* margin: -20; */
   }
   
   .inactive{

@@ -21,10 +21,11 @@
                 <?php include('errors.php') ?>
             <h1 class="text-center">Sign Up For Free</h1>
             <div class="wrap-field float-left">
+                <label for="f_name">First Name<span class="req">*</span></label>
                 <input type="text" name="firstname" value="<?php echo $firstname; ?>" id="f_name" />
             </div>
             <div class="wrap-field float-right">
-                <label for="f_name">Last Name<span class="req">*</span></label>
+                <label for="l_name">Last Name<span class="req">*</span></label>
                 <input type="text" name="lastname" value="<?php echo $lastname; ?>" id="l_name" required />
             </div>
             <div class="wrap-field" style="clear: both">

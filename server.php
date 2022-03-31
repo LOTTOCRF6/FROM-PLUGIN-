@@ -7,7 +7,7 @@
     $lastname = "";
     $email = "";
     $errors = array();
-
+    
     // CONNECT TO DB
 
     // $db = new mysqli_connect('localhost', 'root', 'project');
