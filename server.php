@@ -14,7 +14,7 @@
 
     // REGISTER A USER
 
-    if (isset($_POST['reg_user'])) {
+    if (isset($_POST['signup'])) {
         // RECEIVE ALL INPUT VALUES
         $firstname = mysqli_real_escape_string($db, $_POST['firstname']);
         $lastname = mysqli_real_escape_string($db, $_POST['lastname']);
@@ -45,6 +45,7 @@
             
             if ($user['email'] === $email) {
                 array_push($errors, "Email already exists");
+                array_push($errors, "Password already exists");
             }
         }
 
